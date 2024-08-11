@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  #app {
+    max-width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: none; /* Optional: remove shadow on mobile */
+    border-radius: 0; /* Optional: remove border radius on mobile */
+  }
+
+  h1 {
+    font-size: 2em; /* Adjust font size for better readability on small screens */
+    text-align: center; /* Center align heading */
+  }
+}
+
+
